@@ -1,10 +1,11 @@
 import "./App.css";
+import Navbar from "./Component/Navbar";
 
 function App() {
   return (
     <>
-      <div>
-        <h1 className="text-4xl text-center">Savory Serenity</h1>
+      <div className="mx-32">
+        <Navbar></Navbar>
       </div>
     </>
   );
