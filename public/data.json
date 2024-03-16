@@ -2,7 +2,7 @@
     {
         "recipe_id": 1,
         "recipe_name": "Chicken Teriyaki",
-        "recipe_image": "chicken_teriyaki.jpg",
+        "recipe_image": "https://i.ibb.co/C28hZrc/mgg-vitchakorn-4-CJ9-AWZT7-FM-unsplash.jpg",
         "short_description": "Delicious and easy-to-make chicken teriyaki with a savory sauce.",
         "ingredients": [
             "550 g chicken",
@@ -16,7 +16,7 @@
     {
         "recipe_id": 2,
         "recipe_name": "Spaghetti Carbonara",
-        "recipe_image": "spaghetti_carbonara.jpg",
+        "recipe_image": "https://i.ibb.co/9V8LW5x/rob-wicks-sl-DBXd-JCd-E-unsplash.jpg",
         "short_description": "Classic Italian pasta dish with creamy sauce and crispy bacon.",
         "ingredients": [
             "400 g spaghetti",
@@ -30,7 +30,7 @@
     {
         "recipe_id": 3,
         "recipe_name": "Greek Salad",
-        "recipe_image": "greek_salad.jpg",
+        "recipe_image": "https://i.ibb.co/6HWNJ8G/tania-melnyczuk-xe-Tv9-N2-Fj-XA-unsplash.jpg",
         "short_description": "Healthy and refreshing salad with fresh vegetables and feta cheese.",
         "ingredients": [
             "2 tomatoes",
@@ -45,7 +45,7 @@
     {
         "recipe_id": 4,
         "recipe_name": "Vegetable Stir-Fry",
-        "recipe_image": "vegetable_stir_fry.jpg",
+        "recipe_image": "https://i.ibb.co/WcxnGg6/stir-fry-chicken-sweet-peppers-green-beans.jpg",
         "short_description": "Quick and colorful stir-fry packed with assorted vegetables.",
         "ingredients": [
             "250 g broccoli",
@@ -59,7 +59,7 @@
     {
         "recipe_id": 5,
         "recipe_name": "Grilled Salmon",
-        "recipe_image": "grilled_salmon.jpg",
+        "recipe_image": "https://i.ibb.co/sVsLfg8/ca-creative-bp-PTl-XWTOvg-unsplash.jpg",
         "short_description": "Healthy and flavorful grilled salmon fillets with lemon and herbs.",
         "ingredients": [
             "4 salmon fillets",
@@ -73,7 +73,7 @@
     {
         "recipe_id": 6,
         "recipe_name": "Banana Smoothie",
-        "recipe_image": "banana_smoothie.jpg",
+        "recipe_image": "https://i.ibb.co/Fz0fdtQ/brenda-godinez-Cr-K843-Pl9a4-unsplash.jpg",
         "short_description": "Creamy and delicious banana smoothie for a quick and nutritious breakfast.",
         "ingredients": [
             "2 ripe bananas",

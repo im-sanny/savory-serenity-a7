@@ -9,37 +9,22 @@ const Navbar = () => {
         </div>
         <div className="flex flex-col">
           <ul className="menu menu-horizontal px-1">
-            <li>
-              <a>Home</a>
-            </li>
-            <li>
-              <a>Recipes</a>
-            </li>
-            <li>
-              <a>About</a>
-            </li>
-            <li>
-              <a>Search</a>
-            </li>
+            <li><a>Home</a></li>
+            <li><a>Recipes</a></li>
+            <li><a>About</a></li>
+            <li><a>Search</a></li>
           </ul>
         </div>
         <div className=" flex items-center">
-          <input
-            type="text"
-            placeholder="Search"
-            className="input input-bordered w-24 h-9 md:w-auto"
-          />
+          <input type="text" placeholder="Search" className="input input-bordered w-24 h-9 md:w-auto"/>
           <div role="button" className="btn btn-ghost btn-circle avatar">
             <div className="w-10 rounded-full">
-              <img
-                alt="Avatar"
-                src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg"
-              />
+              <img alt="Avatar" src="/src/assets/cat.jpg"/>
             </div>
           </div>
         </div>
       </div>
-
+    {/* banner */}
       <div
         className="hero h-[400px] rounded-xl  my-10"
         style={{
