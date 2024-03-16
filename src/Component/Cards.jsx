@@ -1,7 +1,7 @@
 import { LuClock3 } from "react-icons/lu";
 import { FaFire } from "react-icons/fa";
 
-const Cards = ({ card }) => {
+const Cards = ({ card, handleCourseSelect }) => {
   const {
     recipe_name,
     recipe_image,
@@ -39,7 +39,7 @@ const Cards = ({ card }) => {
               </p>
             </div>
             <div className="card-actions">
-              <button className="btn btn-sm rounded-full bg-[#0BE58A]">
+              <button onClick={() => handleCourseSelect (card)} className="btn btn-sm rounded-full bg-[#0BE58A]">
                 Want to cook
               </button>
             </div>
