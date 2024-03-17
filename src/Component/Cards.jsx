@@ -12,7 +12,7 @@ const Cards = ({ card, handleCourseSelect }) => {
   } = card;
   return (
     <div>
-      <div className="flex justify-between gap-4">
+      <div className="lg:flex justify-between my-3 lg:my-0 gap-4">
         <div className="card bg-base-100 border ">
           <figure className="p-4">
             <img
@@ -20,7 +20,7 @@ const Cards = ({ card, handleCourseSelect }) => {
               className="rounded-xl min-w-full h-[200px]"
             />
           </figure>
-          <div className=" p-4 ">
+          <div className=" p-4  ">
             <h2 className="card-title">{recipe_name}</h2>
             <p>{short_description}</p>
             <div className="divider"></div>
@@ -39,7 +39,10 @@ const Cards = ({ card, handleCourseSelect }) => {
               </p>
             </div>
             <div className="card-actions">
-              <button onClick={() => handleCourseSelect (card)} className="btn btn-sm rounded-full bg-[#0BE58A]">
+              <button
+                onClick={() => handleCourseSelect(card)}
+                className="btn btn-sm rounded-full bg-[#0BE58A]"
+              >
                 Want to cook
               </button>
             </div>
