@@ -11,7 +11,7 @@ const Table = ({ card, handleDelete }) => {
 
   return (
     <>
-      <div className="table overflow-scroll table-zebra sm:mx-5 py-5 border">
+      <div className="table-sm rounded-xl table-zebra py-5 border">
         <div className="">
           <h1 className="text-2xl flex justify-center">
             Want to cook: {card.length}
@@ -48,7 +48,7 @@ const Table = ({ card, handleDelete }) => {
               ))}
             </tbody>
           </table>
-
+          <div className="divider"></div>
           <div className="my-5">
             <h1 className="text-2xl flex justify-center">
               Currently cooking: {removed.length}
@@ -77,12 +77,12 @@ const Table = ({ card, handleDelete }) => {
             </tbody>
           </table>
           <div className="divider "></div>
-          <div className="flex justify-end mr-10">
+          <div className="flex justify-start lg:justify-end ml-5 lg:mr-[72px]">
             Total time ={" "}
             {removed.reduce((p, c) => p + parseFloat(c.preparing_time), 0)} min
           </div>
           <br />
-          <p className="flex justify-end mr-10">
+          <p className="flex justify-start lg:justify-end ml-5 lg:mr-3">
             Total Calories ={" "}
             {removed.reduce((p, c) => p + parseFloat(c.calories), 0)} calories
           </p>

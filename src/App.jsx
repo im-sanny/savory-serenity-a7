@@ -30,7 +30,7 @@ function App() {
 
   return (
     <>
-      <div className=" mx-5 lg:mx-32">
+      <div className=" mt-8 mx-5 lg:mx-32">
         <Navbar></Navbar>
         <CardHeader></CardHeader>
         <div className="lg:grid grid-cols-12 gap-4">
