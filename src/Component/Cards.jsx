@@ -26,7 +26,7 @@ const Cards = ({ card, handleCourseSelect }) => {
             <div className="divider"></div>
             <ul>
               {ingredients.map((ingredient, index) => (
-                <li key={index}>{ingredient}</li>
+                <li key={index}>• {ingredient}</li>
               ))}
             </ul>
             <div className="divider"></div>
