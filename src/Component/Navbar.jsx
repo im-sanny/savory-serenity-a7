@@ -1,11 +1,12 @@
 import React from "react";
+import 'animate.css';
 
 const Navbar = () => {
   return (
     <div>
       <div className=" lg:flex justify-around items-center bg-base-100">
         <div className="">
-          <h2 className="text-3xl font-bold flex justify-center ">Savory Serenity</h2>
+          <h2 className="text-3xl font-bold flex justify-center animate__animated animate__tada">Savory Serenity</h2>
         </div>
         <div className="flex justify-center">
           <ul className="menu menu-horizontal px-1">

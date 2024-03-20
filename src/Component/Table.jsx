@@ -23,6 +23,7 @@ const Table = ({ card, handleDelete }) => {
             {/* head */}
             <thead>
               <tr>
+                <th></th>
                 <th>Item</th>
                 <th>Name</th>
                 <th>Time</th>

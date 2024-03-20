@@ -26,6 +26,7 @@ function App() {
   const handleDelete = (id) => {
     const newCard = card.filter((c) => c.recipe_id != id);
     setCard(newCard);
+    toast.success("Recipe added, wait for to be cooked!");
   };
 
   return (

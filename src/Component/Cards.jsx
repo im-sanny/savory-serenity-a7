@@ -24,6 +24,7 @@ const Cards = ({ card, handleCourseSelect }) => {
             <h2 className="card-title">{recipe_name}</h2>
             <p>{short_description}</p>
             <div className="divider"></div>
+            <div className="text-1xl font-bold mb-3">Ingredients: {ingredients.length}</div>
             <ul>
               {ingredients.map((ingredient, index) => (
                 <li key={index}>• {ingredient}</li>
